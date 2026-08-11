@@ -25,7 +25,7 @@ function sendPromtOnAction() {
         .then((result) => {
 
 
-            document.getElementById("lblResponce").innerHTML=result.candidates[0].content.parts[0].text;
+            document.getElementById("lblResponce").innerHTML = markdown.default(result.candidates[0].content.parts[0].text);
         })
         .catch((error) => console.error(error));
 }
