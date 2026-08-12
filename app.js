@@ -1,3 +1,4 @@
+/*
 function sendPromtOnAction() {
     const myHeaders = new Headers();
     myHeaders.append("Content-Type", "application\\json");
@@ -29,3 +30,18 @@ function sendPromtOnAction() {
         })
         .catch((error) => console.error(error));
 }
+        */
+
+//import sum from "./sum.js";
+//import getText from "./sum.js";
+
+import {sum,getText} from "./sum.js";
+
+let numSum = sum(10,20);
+console.log(numSum);
+
+console.log(getText());
+
+
+        
+
