@@ -30,22 +30,21 @@ function sendPromtOnAction() {
         })
         .catch((error) => console.error(error));
 }
-        
 
 //import sum from "./sum.js";
 //import getText from "./sum.js";
 
-
-import {sum,getText,name} from "./sum.js";
 
 let numSum = sum(10,20);
 console.log(numSum);
 
 console.log(getText());
 
+
+
 //import a variable
 console.log(name);
-*/
+
 
 
 import {addition,substraction,multiplication,division} from "./components/calculator.js";
@@ -63,6 +62,15 @@ let numSum4 = division(10,20);
 console.log(numSum4);
 
 
+import Student from "./student.js";
 
-        
+let student = new Student();
+console.log(student);
 
+
+import Student from "./student.js";
+
+let student = new Student("Saman",22,"Colombo");
+console.log(student);
+
+*/
