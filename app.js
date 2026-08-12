@@ -30,17 +30,38 @@ function sendPromtOnAction() {
         })
         .catch((error) => console.error(error));
 }
-        */
+        
 
 //import sum from "./sum.js";
 //import getText from "./sum.js";
 
-import {sum,getText} from "./sum.js";
+
+import {sum,getText,name} from "./sum.js";
 
 let numSum = sum(10,20);
 console.log(numSum);
 
 console.log(getText());
+
+//import a variable
+console.log(name);
+*/
+
+
+import {addition,substraction,multiplication,division} from "./components/calculator.js";
+
+let numSum1 = addition(10,20);
+console.log(numSum1);
+
+let numSum2 = substraction(10,20);
+console.log(numSum2);
+
+let numSum3 = multiplication(10,20);
+console.log(numSum3);
+
+let numSum4 = division(10,20);
+console.log(numSum4);
+
 
 
         
